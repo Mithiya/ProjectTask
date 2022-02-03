@@ -1,0 +1,238 @@
+
+ 
+  
+  .sidebar .nav-link {
+    display: block;
+    padding: 0.75rem 1rem;
+    /* color: #6c757d; */
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    /* background: #fff; */
+  }
+  .sidebar-item.active > .sidebar-link,
+  .sidebar-item.active .sidebar-link:hover {
+    color: #212529;
+  }
+  .sidebar .nav {
+    width: 230px;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 0;
+    background: #fff;
+    margin-top: 15px;
+  }
+  .sidebar-link,
+  a.sidebar-link {
+    color: #6c757d !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+  }
+  .sidebar-link,
+  a.sidebar-link {
+    display: block;
+    padding: 0.65rem 0.75rem;
+    margin: 0 0.5rem;
+  
+    font-weight: 400;
+  
+    border-radius: 0.2rem;
+    transition: background 0.1s ease-in-out;
+  
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .sidebar .nav-link:hover {
+    color: black !important;
+    font-weight: 400 !important;
+    cursor: pointer !important;
+    background: #fff;
+  }
+  .sidebar .nav-link .nav-icon {
+    display: inline-block;
+    width: 1.09375rem;
+    margin: 0 0.5rem 0 0;
+    /* font-size: 0.875rem; */
+    font-size: 16px;
+    /* color: #73818f; */
+    text-align: center;
+    color: #9caeeb;
+  }
+  .sidebar .nav-link .nav-icon:hover {
+    display: inline-block;
+    width: 1.09375rem;
+    margin: 0 0.5rem 0 0;
+    /* font-size: 0.875rem; */
+  font-size: 16px;
+    text-align: center;
+    color: #9caeeb !important;
+  }
+  .sidebar .nav-link:hover .nav-icon {
+    color: #9caeeb !important;
+  }
+  .sidebar .nav-link.active {
+    color: #212529;
+    background: #c6c6c6;
+  }
+  .sidebar-link,
+  a.sidebar-link {
+    display: block;
+    padding: 0.65rem 0.75rem;
+    margin: 0 0.5rem;
+    color: #6c757d;
+    font-weight: 400;
+    background: transparent;
+    border-radius: 0.2rem;
+    transition: background 0.1s ease-in-out;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .sidebar > .sidebar-nav {
+   
+    background-color: #ffff;
+}
+  
+  .sidebar .nav-link.active .nav-icon {
+    color: #9caeeb !important;
+  }
+  .sidebar .nav-link.hover .nav-icon
+  {
+    color: #9caeeb !important;
+
+  }
+  .header-fixed .app-header {
+    position: fixed;
+    z-index: 1020;
+    width: 100%;
+    background-color: #989ca1;
+    border: 1px solid #989ca1;
+    height: 70px;
+  }
+  .sidebar .sidebar-minimizer:hover {
+    background-color: #bebebe;
+  }
+  .sidebar .sidebar-minimizer {
+    position: relative;
+    flex: 0 0 50px;
+    cursor: pointer;
+    background-color: #e9ecef !important;
+    border: 0;
+  }
+  .breadcrumb {
+    transition: left 0.25s, right 0.25s, width 0.25s;
+  }
+  .breadcrumb {
+    position: relative;
+    border-radius: 0;
+    border-bottom: 1px solid #c8ced300;
+  }
+  
+  
+  
+  
+  
+  a:hover{
+    text-decoration: none !important;
+  }
+  button:focus{
+    outline: none;
+  }
+  
+  .dropView {
+    top: "45px";
+    left: "-35px";
+  }
+  
+  .sidebar .nav-link:hover {
+    background: #c8ced3 !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .messages {
+      display: none;
+    }
+    .termsconfooters {
+      float: left !important;
+    }
+    .dropView {
+      left: "-100px";
+    }
+    .breadcrumb {
+      margin-bottom: -0.4rem;
+      padding-bottom: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .termsconfooters {
+      float: left !important;
+    }
+  }
+  .sidebar .nav-link.active {
+    color: #212529;
+    font-size: 20px;
+  
+  }
+  .sidebar .nav-dropdown.open .nav-link {
+    color: black !important;
+    font-size: 20px;
+  }
+  .breadcrumb-item.active {
+    color: #f1f1f1 !important;
+  }
+  .sidebar .nav-dropdown.open {
+    background: rgb(220 220 220);
+  }
+  
+  .img-avatar-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .right-padd {
+    padding-right: 28px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .right-padd {
+      padding-right: 15px;
+    }
+    .profile-div {
+      display: none;
+    }
+  }
+  
+  
+  
+  .sidebar .nav-link {
+    display: block;
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 20px;
+  
+    /* background: #fff; */
+  }
+  
+  
+  .sidebar .nav-link {
+    width: 100%;
+    
+  
+  }
+  .sidebar .nav-link .nav-icon {
+    font-size: 22px !important;
+    padding-right: 10px;
+  }
+  .sidebar .nav {
+    width: 300px;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 0;
+  }
+  .sidebar .nav-link:hover {
+    color: #fff;
+    background: #86c5da !important;
+  }
